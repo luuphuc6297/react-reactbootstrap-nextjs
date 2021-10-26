@@ -1,0 +1,66 @@
+{
+    "name": "react-reactbootstraps-nextjs",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "lint-staged": {
+        "./**/*.{js,jsx,ts,tsx}": [
+            "eslint --fix",
+            "git add --force"
+        ],
+        "./**/*.{json,css,scss,md}": [
+            "prettier --write",
+            "git add --force"
+        ]
+    },
+    "dependencies": {
+        "@hookform/resolvers": "^2.8.2",
+        "@reduxjs/toolkit": "^1.6.2",
+        "axios": "^0.23.0",
+        "bootstrap": "^5.1.3",
+        "clsx": "^1.1.1",
+        "connected-react-router": "^6.9.1",
+        "cookies": "^0.8.0",
+        "dotenv": "^10.0.0",
+        "history": "^5.0.1",
+        "http-proxy": "^1.18.1",
+        "lodash": "^4.17.21",
+        "next": "11.1.2",
+        "node-sass": "^6.0.1",
+        "nprogress": "^0.2.0",
+        "path": "^0.12.7",
+        "react": "17.0.2",
+        "react-bootstrap": "^1.6.4",
+        "react-dom": "17.0.2",
+        "react-hook-form": "^7.17.5",
+        "react-redux": "^7.2.5",
+        "redux-saga": "^1.1.3",
+        "sass": "^1.43.2",
+        "swr": "^1.0.1",
+        "yup": "^0.32.11"
+    },
+    "devDependencies": {
+        "@types/cookies": "^0.7.7",
+        "@types/http-proxy": "^1.17.7",
+        "@types/lodash": "^4.14.175",
+        "@types/nprogress": "^0.2.0",
+        "@types/react": "17.0.30",
+        "@typescript-eslint/eslint-plugin": "^4.22.1",
+        "@typescript-eslint/parser": "^4.22.1",
+        "eslint": "^8.1.0",
+        "eslint-config-next": "^11.1.2",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-prettier": "^3.4.0",
+        "eslint-plugin-react": "^7.23.2",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "eslint-plugin-simple-import-sort": "^7.0.0",
+        "typescript": "4.4.4"
+    }
+}
